@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>반도체 투자 대시보드</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span class="chip-icon">▣</span><strong>반도체 투자</strong></div>
+    <nav>
+      <a class="active" href="#market">▦ <span>대시보드</span></a>
+      <a href="#value-chain">◇ <span>AI 칩 체인</span></a>
+      <a href="#favorite-sources">★ <span>Favorite 소스</span></a>
+      <a href="#source-status">▥ <span>소스 상태</span></a>
+      <a href="#signals">◉ <span>투자 신호</span></a>
+      <a href="#company">▤ <span>실적 팩트</span></a>
+    </nav>
+    <section class="watchlist">
+      <div class="watch-title">★ 관심 목록</div>
+      <div id="watchlistRows" class="watch-rows"></div>
+    </section>
+  </aside>
+
+  <main class="page">
+    <header class="topbar">
+      <div>
+        <div class="title-row"><h1>반도체 투자 대시보드</h1><span id="dataBadge" class="badge">실제 소스</span></div>
+        <p class="subtitle">GitHub Pages용 정적 HTML. 화면 숫자는 <strong>public/data/dashboard.json</strong>에 생성된 실제 외부 소스 응답만 사용합니다.</p>
+      </div>
+      <div class="controls">
+        <span id="lastUpdated">마지막 업데이트: -</span>
+        <button id="refreshButton" type="button" title="정적 JSON 다시 읽기">↻</button>
+        <select aria-label="기간 선택"><option>1년</option><option>3개월</option><option>1개월</option></select>
+        <button type="button" title="설정">⚙</button>
+      </div>
+    </header>
+
+    <div class="tabs" role="tablist">
+      <button class="tab active" type="button">시장 온도</button>
+      <button class="tab" type="button">AI 칩 체인</button>
+      <button class="tab" type="button">Favorite 소스</button>
+      <button class="tab" type="button">메모리 사이클</button>
+      <button class="tab" type="button">글로벌 피어</button>
+      <button class="tab" type="button">포트폴리오</button>
+    </div>
+
+    <section id="market" class="ticker-grid" aria-label="핵심 시장 카드"></section>
+
+    <section class="content-grid feature-grid">
+      <article class="panel span-2" id="value-chain">
+        <div class="panel-head"><h2>AI 칩 밸류체인 온도맵</h2><span class="source-pill">no-key real data</span></div>
+        <div id="valueChainThemes" class="theme-grid"></div>
+      </article>
+
+      <article class="panel" id="favorite-sources">
+        <div class="panel-head"><h2>Favorite 소스</h2><span class="source-pill">RSS/manual_real</span></div>
+        <div id="favoriteSourceRows" class="favorite-sources"></div>
+        <div id="favoriteItemRows" class="favorite-items"></div>
+      </article>
+    </section>
+
+    <section class="content-grid">
+      <article class="panel span-2">
+        <div class="panel-head"><h2>주요 지수 비교</h2><span class="source-pill">real-source JSON</span></div>
+        <canvas id="comparisonChart" height="300" aria-label="KOSPI, SOX, 메모리 바스켓 추이"></canvas>
+        <div class="range-pills"><span>1M</span><span>3M</span><span class="active">1Y</span></div>
+      </article>
+
+      <article class="panel" id="source-status">
+        <div class="panel-head"><h2>데이터 소스 상태</h2><span class="source-pill">mock 금지</span></div>
+        <div id="sourceStatusRows" class="status-list"></div>
+      </article>
+
+      <article class="panel" id="signals">
+        <div class="panel-head"><h2>반도체 투자 신호</h2><span class="source-pill">규칙 기반</span></div>
+        <table class="signal-table"><thead><tr><th>지표</th><th>상태</th><th>해석</th></tr></thead><tbody id="signalRows"></tbody></table>
+      </article>
+
+      <article class="panel" id="company">
+        <div class="panel-head"><h2>글로벌 실적 팩트</h2><span class="source-pill">SEC EDGAR</span></div>
+        <div id="companyFacts" class="fact-grid"></div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head"><h2>포트폴리오 리스크</h2><span class="source-pill warning">수동 연결 필요</span></div>
+        <div class="empty-state">
+          <strong>포트폴리오 CSV 미연결</strong>
+          <p>개인 보유내역은 GitHub Pages 공개 산출물에 포함하지 않습니다. 다음 단계에서 브라우저 로컬 CSV import로 연결합니다.</p>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      본 대시보드는 투자 권유가 아닙니다. 실패/수동/유료 필요 소스는 가짜 값으로 대체하지 않고 그대로 표시합니다.
+    </footer>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
