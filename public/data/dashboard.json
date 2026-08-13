@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "mock_data": false,
-  "generated_at": "2026-08-12T22:11:29.057795+00:00",
+  "generated_at": "2026-08-13T22:11:52.623140+00:00",
   "dashboard_title": "AI 반도체 투자 대시보드",
   "market_cards": [
     {
@@ -9,20 +9,12 @@
       "name": "KOSPI",
       "ticker": "KOSPI",
       "currency": "KRW",
-      "latest_date": "2026-08-12",
-      "value": 6579.04,
-      "change": 233.51,
-      "change_pct": 3.6799,
-      "period_change_pct": -3.3479,
+      "latest_date": "2026-08-13",
+      "value": 6813.34,
+      "change": 234.3,
+      "change_pct": 3.5613,
+      "period_change_pct": -0.6343,
       "series": [
-        {
-          "date": "2026-04-16",
-          "close": 6226.05,
-          "open": 6149.49,
-          "high": 6231.03,
-          "low": 6126.06,
-          "volume": 925695
-        },
         {
           "date": "2026-04-17",
           "close": 6191.92,
@@ -654,12 +646,20 @@
           "high": 6668.43,
           "low": 6413.5,
           "volume": 360651
+        },
+        {
+          "date": "2026-08-13",
+          "close": 6813.34,
+          "open": 6773.92,
+          "high": 6895.63,
+          "low": 6748.13,
+          "volume": 418947
         }
       ],
       "source_name": "Naver Stock index chart API",
       "source_url": "https://m.stock.naver.com/domestic/index/KOSPI",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -668,20 +668,12 @@
       "name": "삼성전자",
       "ticker": "005930",
       "currency": "KRW",
-      "latest_date": "2026-08-12",
-      "value": 255500.0,
-      "change": 16000.0,
-      "change_pct": 6.6806,
-      "period_change_pct": 0.3929,
+      "latest_date": "2026-08-13",
+      "value": 268000.0,
+      "change": 12500.0,
+      "change_pct": 4.8924,
+      "period_change_pct": 1.9011,
       "series": [
-        {
-          "date": "2026-04-16",
-          "close": 217500.0,
-          "open": 212000.0,
-          "high": 218000.0,
-          "low": 210500.0,
-          "volume": 21499788
-        },
         {
           "date": "2026-04-17",
           "close": 216000.0,
@@ -1313,12 +1305,20 @@
           "high": 260500.0,
           "low": 241000.0,
           "volume": 27102479
+        },
+        {
+          "date": "2026-08-13",
+          "close": 268000.0,
+          "open": 267500.0,
+          "high": 271000.0,
+          "low": 262500.0,
+          "volume": 35463855
         }
       ],
       "source_name": "Naver Stock domestic chart API",
       "source_url": "https://m.stock.naver.com/domestic/stock/005930",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -1327,20 +1327,12 @@
       "name": "SK하이닉스",
       "ticker": "000660",
       "currency": "KRW",
-      "latest_date": "2026-08-12",
-      "value": 1504000.0,
-      "change": 79000.0,
-      "change_pct": 5.5439,
-      "period_change_pct": -18.4824,
+      "latest_date": "2026-08-13",
+      "value": 1593000.0,
+      "change": 89000.0,
+      "change_pct": 5.9176,
+      "period_change_pct": -16.7277,
       "series": [
-        {
-          "date": "2026-04-16",
-          "close": 1155000.0,
-          "open": 1141000.0,
-          "high": 1161000.0,
-          "low": 1130000.0,
-          "volume": 2901319
-        },
         {
           "date": "2026-04-17",
           "close": 1128000.0,
@@ -1971,13 +1963,21 @@
           "open": 1456000.0,
           "high": 1549000.0,
           "low": 1440000.0,
-          "volume": 4204301
+          "volume": 4566672
+        },
+        {
+          "date": "2026-08-13",
+          "close": 1593000.0,
+          "open": 1582000.0,
+          "high": 1634000.0,
+          "low": 1567000.0,
+          "volume": 4599305
         }
       ],
       "source_name": "Naver Stock domestic chart API",
       "source_url": "https://m.stock.naver.com/domestic/stock/000660",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -1986,20 +1986,12 @@
       "name": "삼성전기",
       "ticker": "009150",
       "currency": "KRW",
-      "latest_date": "2026-08-12",
-      "value": 1335000.0,
-      "change": 73000.0,
-      "change_pct": 5.7845,
-      "period_change_pct": 3.5687,
+      "latest_date": "2026-08-13",
+      "value": 1503000.0,
+      "change": 168000.0,
+      "change_pct": 12.5843,
+      "period_change_pct": 19.2857,
       "series": [
-        {
-          "date": "2026-04-16",
-          "close": 639000.0,
-          "open": 622000.0,
-          "high": 643000.0,
-          "low": 619000.0,
-          "volume": 556668
-        },
         {
           "date": "2026-04-17",
           "close": 679000.0,
@@ -2630,13 +2622,21 @@
           "open": 1288000.0,
           "high": 1350000.0,
           "low": 1275000.0,
-          "volume": 701680
+          "volume": 701750
+        },
+        {
+          "date": "2026-08-13",
+          "close": 1503000.0,
+          "open": 1432000.0,
+          "high": 1548000.0,
+          "low": 1412000.0,
+          "volume": 1157518
         }
       ],
       "source_name": "Naver Stock domestic chart API",
       "source_url": "https://m.stock.naver.com/domestic/stock/009150",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -2645,20 +2645,12 @@
       "name": "NVIDIA",
       "ticker": "NVDA",
       "currency": "USD",
-      "latest_date": "2026-08-12",
-      "value": 224.09,
-      "change": 6.59,
-      "change_pct": 3.0299,
-      "period_change_pct": 5.8026,
+      "latest_date": "2026-08-13",
+      "value": 225.3,
+      "change": 1.21,
+      "change_pct": 0.54,
+      "period_change_pct": 6.0235,
       "series": [
-        {
-          "date": "2026-04-20",
-          "close": 202.05999755859375,
-          "open": 199.97999572753906,
-          "high": 202.1699981689453,
-          "low": 197.83999633789062,
-          "volume": 119381400
-        },
         {
           "date": "2026-04-21",
           "close": 199.8800048828125,
@@ -3289,13 +3281,21 @@
           "open": 221.0399932861328,
           "high": 225.10000610351562,
           "low": 220.1999969482422,
-          "volume": 106431963
+          "volume": 108783600
+        },
+        {
+          "date": "2026-08-13",
+          "close": 225.3000030517578,
+          "open": 225.05499267578125,
+          "high": 227.22999572753906,
+          "low": 223.7100067138672,
+          "volume": 93629467
         }
       ],
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/NVDA",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -3304,20 +3304,12 @@
       "name": "AMD",
       "ticker": "AMD",
       "currency": "USD",
-      "latest_date": "2026-08-12",
-      "value": 482.93,
-      "change": 8.61,
-      "change_pct": 1.8152,
-      "period_change_pct": -11.895,
+      "latest_date": "2026-08-13",
+      "value": 483.01,
+      "change": 0.08,
+      "change_pct": 0.0166,
+      "period_change_pct": -8.7179,
       "series": [
-        {
-          "date": "2026-04-20",
-          "close": 274.95001220703125,
-          "open": 280.6000061035156,
-          "high": 287.6099853515625,
-          "low": 272.0,
-          "volume": 34833900
-        },
         {
           "date": "2026-04-21",
           "close": 284.489990234375,
@@ -3945,16 +3937,24 @@
         {
           "date": "2026-08-12",
           "close": 482.92999267578125,
-          "open": 488.79998779296875,
-          "high": 491.6899108886719,
+          "open": 488.32000732421875,
+          "high": 491.69000244140625,
           "low": 480.8800048828125,
-          "volume": 17829871
+          "volume": 18628300
+        },
+        {
+          "date": "2026-08-13",
+          "close": 483.010009765625,
+          "open": 483.05499267578125,
+          "high": 497.9800109863281,
+          "low": 481.0,
+          "volume": 18194677
         }
       ],
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/AMD",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -3963,20 +3963,12 @@
       "name": "Broadcom",
       "ticker": "AVGO",
       "currency": "USD",
-      "latest_date": "2026-08-12",
-      "value": 416.05,
-      "change": -0.03,
-      "change_pct": -0.0072,
-      "period_change_pct": 6.9235,
+      "latest_date": "2026-08-13",
+      "value": 417.82,
+      "change": 1.77,
+      "change_pct": 0.4254,
+      "period_change_pct": 5.9704,
       "series": [
-        {
-          "date": "2026-04-20",
-          "close": 399.6300048828125,
-          "open": 405.70001220703125,
-          "high": 406.4200134277344,
-          "low": 395.8999938964844,
-          "volume": 16922000
-        },
         {
           "date": "2026-04-21",
           "close": 402.1700134277344,
@@ -4604,16 +4596,24 @@
         {
           "date": "2026-08-12",
           "close": 416.04998779296875,
-          "open": 426.2550048828125,
+          "open": 426.260009765625,
           "high": 426.5,
           "low": 414.6099853515625,
-          "volume": 14256945
+          "volume": 15859200
+        },
+        {
+          "date": "2026-08-13",
+          "close": 417.82000732421875,
+          "open": 415.80499267578125,
+          "high": 424.9200134277344,
+          "low": 411.4100036621094,
+          "volume": 13133946
         }
       ],
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/AVGO",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -4622,20 +4622,12 @@
       "name": "Marvell",
       "ticker": "MRVL",
       "currency": "USD",
-      "latest_date": "2026-08-12",
-      "value": 217.08,
-      "change": 4.77,
-      "change_pct": 2.2467,
-      "period_change_pct": -2.4096,
+      "latest_date": "2026-08-13",
+      "value": 222.18,
+      "change": 5.1,
+      "change_pct": 2.3494,
+      "period_change_pct": 7.7184,
       "series": [
-        {
-          "date": "2026-04-20",
-          "close": 147.83999633789062,
-          "open": 147.50999450683594,
-          "high": 149.5800018310547,
-          "low": 143.92999267578125,
-          "volume": 39548500
-        },
         {
           "date": "2026-04-21",
           "close": 151.30999755859375,
@@ -5263,16 +5255,24 @@
         {
           "date": "2026-08-12",
           "close": 217.0800018310547,
-          "open": 225.41000366210938,
-          "high": 226.8800048828125,
+          "open": 225.89999389648438,
+          "high": 226.88999938964844,
           "low": 216.8800048828125,
-          "volume": 20181532
+          "volume": 25134300
+        },
+        {
+          "date": "2026-08-13",
+          "close": 222.17999267578125,
+          "open": 217.75,
+          "high": 231.3800048828125,
+          "low": 217.17999267578125,
+          "volume": 18574045
         }
       ],
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/MRVL",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -5281,20 +5281,12 @@
       "name": "Qualcomm",
       "ticker": "QCOM",
       "currency": "USD",
-      "latest_date": "2026-08-12",
-      "value": 163.07,
-      "change": 0.39,
-      "change_pct": 0.2397,
-      "period_change_pct": -8.4391,
+      "latest_date": "2026-08-13",
+      "value": 164.79,
+      "change": 1.72,
+      "change_pct": 1.0548,
+      "period_change_pct": -7.4109,
       "series": [
-        {
-          "date": "2026-04-20",
-          "close": 137.52000427246094,
-          "open": 136.41000366210938,
-          "high": 138.5,
-          "low": 136.0800018310547,
-          "volume": 7953800
-        },
         {
           "date": "2026-04-21",
           "close": 135.55999755859375,
@@ -5922,16 +5914,24 @@
         {
           "date": "2026-08-12",
           "close": 163.07000732421875,
-          "open": 166.88900756835938,
+          "open": 166.88999938964844,
           "high": 166.94000244140625,
-          "low": 161.0709991455078,
-          "volume": 7718235
+          "low": 161.07000732421875,
+          "volume": 7731700
+        },
+        {
+          "date": "2026-08-13",
+          "close": 164.7899932861328,
+          "open": 163.25,
+          "high": 166.77000427246094,
+          "low": 162.50999450683594,
+          "volume": 7477255
         }
       ],
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/QCOM",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -5940,20 +5940,12 @@
       "name": "Arm",
       "ticker": "ARM",
       "currency": "USD",
-      "latest_date": "2026-08-12",
-      "value": 271.87,
-      "change": 2.94,
-      "change_pct": 1.0932,
-      "period_change_pct": -3.3076,
+      "latest_date": "2026-08-13",
+      "value": 278.65,
+      "change": 6.78,
+      "change_pct": 2.4938,
+      "period_change_pct": 0.592,
       "series": [
-        {
-          "date": "2026-04-20",
-          "close": 175.10000610351562,
-          "open": 167.4149932861328,
-          "high": 175.31500244140625,
-          "low": 164.10000610351562,
-          "volume": 8564000
-        },
         {
           "date": "2026-04-21",
           "close": 175.49000549316406,
@@ -6581,16 +6573,24 @@
         {
           "date": "2026-08-12",
           "close": 271.8699951171875,
-          "open": 278.7699890136719,
+          "open": 279.9599914550781,
           "high": 280.1600036621094,
-          "low": 266.59149169921875,
-          "volume": 3345024
+          "low": 266.5920104980469,
+          "volume": 3368900
+        },
+        {
+          "date": "2026-08-13",
+          "close": 278.6499938964844,
+          "open": 266.5199890136719,
+          "high": 290.2099914550781,
+          "low": 266.2420959472656,
+          "volume": 4787855
         }
       ],
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/ARM",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -6599,20 +6599,12 @@
       "name": "TSMC",
       "ticker": "2330.TW",
       "currency": "TWD",
-      "latest_date": "2026-08-12",
-      "value": 2415.0,
+      "latest_date": "2026-08-13",
+      "value": 2435.0,
       "change": 20.0,
-      "change_pct": 0.8351,
-      "period_change_pct": -0.2066,
+      "change_pct": 0.8282,
+      "period_change_pct": -0.2049,
       "series": [
-        {
-          "date": "2026-04-21",
-          "close": 2050.0,
-          "open": 2050.0,
-          "high": 2075.0,
-          "low": 2045.0,
-          "volume": 25783476
-        },
         {
           "date": "2026-04-22",
           "close": 2050.0,
@@ -7244,12 +7236,20 @@
           "high": 2415.0,
           "low": 2390.0,
           "volume": 17709219
+        },
+        {
+          "date": "2026-08-13",
+          "close": 2435.0,
+          "open": 2440.0,
+          "high": 2445.0,
+          "low": 2425.0,
+          "volume": 21187598
         }
       ],
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/2330.TW",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -7258,20 +7258,12 @@
       "name": "TSMC ADR",
       "ticker": "TSM",
       "currency": "USD",
-      "latest_date": "2026-08-12",
-      "value": 429.15,
-      "change": 7.09,
-      "change_pct": 1.6799,
-      "period_change_pct": 2.0838,
+      "latest_date": "2026-08-13",
+      "value": 430.49,
+      "change": 1.34,
+      "change_pct": 0.3122,
+      "period_change_pct": 2.6247,
       "series": [
-        {
-          "date": "2026-04-20",
-          "close": 366.239990234375,
-          "open": 369.2200012207031,
-          "high": 370.07000732421875,
-          "low": 364.25,
-          "volume": 11638300
-        },
         {
           "date": "2026-04-21",
           "close": 368.0799865722656,
@@ -7902,13 +7894,21 @@
           "open": 432.6499938964844,
           "high": 433.2799987792969,
           "low": 427.0199890136719,
-          "volume": 8375025
+          "volume": 9534200
+        },
+        {
+          "date": "2026-08-13",
+          "close": 430.489990234375,
+          "open": 429.1499938964844,
+          "high": 436.0400085449219,
+          "low": 428.3922119140625,
+          "volume": 8152737
         }
       ],
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/TSM",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -7917,20 +7917,12 @@
       "name": "Intel",
       "ticker": "INTC",
       "currency": "USD",
-      "latest_date": "2026-08-12",
-      "value": 100.95,
-      "change": 3.24,
-      "change_pct": 3.3159,
-      "period_change_pct": -6.3196,
+      "latest_date": "2026-08-13",
+      "value": 104.56,
+      "change": 3.61,
+      "change_pct": 3.576,
+      "period_change_pct": 1.5244,
       "series": [
-        {
-          "date": "2026-04-20",
-          "close": 65.69999694824219,
-          "open": 68.44999694824219,
-          "high": 69.20999908447266,
-          "low": 64.47000122070312,
-          "volume": 96851100
-        },
         {
           "date": "2026-04-21",
           "close": 66.26000213623047,
@@ -8559,15 +8551,23 @@
           "date": "2026-08-12",
           "close": 100.94999694824219,
           "open": 101.33000183105469,
-          "high": 103.1500015258789,
-          "low": 100.12319946289062,
-          "volume": 161584069
+          "high": 103.16000366210938,
+          "low": 100.12000274658203,
+          "volume": 162446700
+        },
+        {
+          "date": "2026-08-13",
+          "close": 104.55999755859375,
+          "open": 101.48999786376953,
+          "high": 107.56999969482422,
+          "low": 100.33000183105469,
+          "volume": 111979671
         }
       ],
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/INTC",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -8576,20 +8576,12 @@
       "name": "Micron",
       "ticker": "MU",
       "currency": "USD",
-      "latest_date": "2026-08-12",
-      "value": 911.29,
-      "change": 42.77,
-      "change_pct": 4.9245,
-      "period_change_pct": -7.3063,
+      "latest_date": "2026-08-13",
+      "value": 949.83,
+      "change": 38.54,
+      "change_pct": 4.2292,
+      "period_change_pct": 5.0372,
       "series": [
-        {
-          "date": "2026-04-20",
-          "close": 448.4200134277344,
-          "open": 458.25,
-          "high": 464.55999755859375,
-          "low": 435.8999938964844,
-          "volume": 32013600
-        },
         {
           "date": "2026-04-21",
           "close": 449.3800048828125,
@@ -9220,13 +9212,21 @@
           "open": 912.9400024414062,
           "high": 935.7999877929688,
           "low": 899.5399780273438,
-          "volume": 35803171
+          "volume": 36804900
+        },
+        {
+          "date": "2026-08-13",
+          "close": 949.8300170898438,
+          "open": 912.89501953125,
+          "high": 978.0,
+          "low": 906.5,
+          "volume": 36294784
         }
       ],
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/MU",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -9235,20 +9235,12 @@
       "name": "Ibiden",
       "ticker": "4062.T",
       "currency": "JPY",
-      "latest_date": "2026-08-12",
-      "value": 20480.0,
-      "change": 600.0,
-      "change_pct": 3.0181,
-      "period_change_pct": 0.8867,
+      "latest_date": "2026-08-13",
+      "value": 21560.0,
+      "change": 1080.0,
+      "change_pct": 5.2734,
+      "period_change_pct": 15.3558,
       "series": [
-        {
-          "date": "2026-04-15",
-          "close": 9380.0,
-          "open": 10080.0,
-          "high": 10110.0,
-          "low": 9215.0,
-          "volume": 7591600
-        },
         {
           "date": "2026-04-16",
           "close": 9572.0,
@@ -9880,12 +9872,20 @@
           "high": 20800.0,
           "low": 19760.0,
           "volume": 7950100
+        },
+        {
+          "date": "2026-08-13",
+          "close": 21560.0,
+          "open": 21050.0,
+          "high": 22515.0,
+          "low": 20950.0,
+          "volume": 10795100
         }
       ],
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/4062.T",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -9894,20 +9894,12 @@
       "name": "Unimicron",
       "ticker": "3037.TW",
       "currency": "TWD",
-      "latest_date": "2026-08-12",
+      "latest_date": "2026-08-13",
       "value": 1000.0,
-      "change": 8.0,
-      "change_pct": 0.8065,
-      "period_change_pct": 14.4165,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "period_change_pct": 6.8376,
       "series": [
-        {
-          "date": "2026-04-21",
-          "close": 710.0,
-          "open": 710.0,
-          "high": 715.0,
-          "low": 700.0,
-          "volume": 7964970
-        },
         {
           "date": "2026-04-22",
           "close": 716.0,
@@ -10539,12 +10531,20 @@
           "high": 1010.0,
           "low": 990.0,
           "volume": 7207742
+        },
+        {
+          "date": "2026-08-13",
+          "close": 1000.0,
+          "open": 1045.0,
+          "high": 1045.0,
+          "low": 976.0,
+          "volume": 8302637
         }
       ],
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/3037.TW",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -10553,20 +10553,12 @@
       "name": "Shin-Etsu Chemical",
       "ticker": "4063.T",
       "currency": "JPY",
-      "latest_date": "2026-08-12",
-      "value": 6410.0,
-      "change": 124.0,
-      "change_pct": 1.9726,
-      "period_change_pct": -12.4317,
+      "latest_date": "2026-08-13",
+      "value": 6378.0,
+      "change": -32.0,
+      "change_pct": -0.4992,
+      "period_change_pct": -13.1063,
       "series": [
-        {
-          "date": "2026-04-15",
-          "close": 6809.0,
-          "open": 6750.0,
-          "high": 6863.0,
-          "low": 6725.0,
-          "volume": 10556400
-        },
         {
           "date": "2026-04-16",
           "close": 6910.0,
@@ -11198,12 +11190,20 @@
           "high": 6410.0,
           "low": 6300.0,
           "volume": 6278500
+        },
+        {
+          "date": "2026-08-13",
+          "close": 6378.0,
+          "open": 6465.0,
+          "high": 6484.0,
+          "low": 6365.0,
+          "volume": 4862800
         }
       ],
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/4063.T",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -11212,20 +11212,12 @@
       "name": "SOX 지수",
       "ticker": "^SOX",
       "currency": "USD",
-      "latest_date": "2026-08-12",
-      "value": 12399.376,
-      "change": 300.9062,
-      "change_pct": 2.4871,
-      "period_change_pct": -2.0736,
+      "latest_date": "2026-08-13",
+      "value": 12455.998,
+      "change": 56.6182,
+      "change_pct": 0.4566,
+      "period_change_pct": 0.4606,
       "series": [
-        {
-          "date": "2026-04-20",
-          "close": 9599.2099609375,
-          "open": 9604.900390625,
-          "high": 9612.08984375,
-          "low": 9462.9404296875,
-          "volume": 0
-        },
         {
           "date": "2026-04-21",
           "close": 9647.2099609375,
@@ -11852,17 +11844,25 @@
         },
         {
           "date": "2026-08-12",
-          "close": 12399.3759765625,
-          "open": 12518.9375,
-          "high": 12531.7646484375,
-          "low": 12386.3125,
+          "close": 12399.3798828125,
+          "open": 12518.9404296875,
+          "high": 12531.759765625,
+          "low": 12386.3095703125,
+          "volume": 0
+        },
+        {
+          "date": "2026-08-13",
+          "close": 12455.998046875,
+          "open": 12413.966796875,
+          "high": 12704.375,
+          "low": 12398.814453125,
           "volume": 0
         }
       ],
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/%5ESOX",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -11871,20 +11871,12 @@
       "name": "USD/KRW",
       "ticker": "KRW=X",
       "currency": "KRW",
-      "latest_date": "2026-08-12",
-      "value": 1416.6899,
-      "change": 4.5099,
-      "change_pct": 0.3194,
-      "period_change_pct": -4.7847,
+      "latest_date": "2026-08-13",
+      "value": 1418.2,
+      "change": 1.74,
+      "change_pct": 0.1228,
+      "period_change_pct": -4.5754,
       "series": [
-        {
-          "date": "2026-04-23",
-          "close": 1479.949951171875,
-          "open": 1481.1800537109375,
-          "high": 1485.6600341796875,
-          "low": 1473.5400390625,
-          "volume": 0
-        },
         {
           "date": "2026-04-26",
           "close": 1474.68994140625,
@@ -12511,17 +12503,25 @@
         },
         {
           "date": "2026-08-12",
-          "close": 1416.68994140625,
-          "open": 1416.77001953125,
-          "high": 1418.030029296875,
-          "low": 1416.510009765625,
+          "close": 1416.4599609375,
+          "open": 1414.8499755859375,
+          "high": 1425.47998046875,
+          "low": 1410.0799560546875,
+          "volume": 0
+        },
+        {
+          "date": "2026-08-13",
+          "close": 1418.199951171875,
+          "open": 1418.1300048828125,
+          "high": 1418.5799560546875,
+          "low": 1418.1300048828125,
           "volume": 0
         }
       ],
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/KRW=X",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
@@ -12530,12 +12530,524 @@
       "name": "미국 10년물",
       "ticker": "^TNX",
       "currency": "USD",
-      "latest_date": "2026-08-12",
-      "value": 4.682,
-      "change": -0.002,
-      "change_pct": -0.0427,
-      "period_change_pct": -0.4465,
+      "latest_date": "2026-08-13",
+      "value": 4.641,
+      "change": -0.041,
+      "change_pct": -0.8757,
+      "period_change_pct": 2.1122,
       "series": [
+        {
+          "date": "2026-04-21",
+          "close": 4.291999816894531,
+          "open": 4.271999835968018,
+          "high": 4.309000015258789,
+          "low": 4.26200008392334,
+          "volume": 0
+        },
+        {
+          "date": "2026-04-22",
+          "close": 4.294000148773193,
+          "open": 4.265999794006348,
+          "high": 4.303999900817871,
+          "low": 4.263999938964844,
+          "volume": 0
+        },
+        {
+          "date": "2026-04-23",
+          "close": 4.322999954223633,
+          "open": 4.306000232696533,
+          "high": 4.35099983215332,
+          "low": 4.285999774932861,
+          "volume": 0
+        },
+        {
+          "date": "2026-04-24",
+          "close": 4.309999942779541,
+          "open": 4.311999797821045,
+          "high": 4.353000164031982,
+          "low": 4.300000190734863,
+          "volume": 0
+        },
+        {
+          "date": "2026-04-27",
+          "close": 4.335999965667725,
+          "open": 4.311999797821045,
+          "high": 4.349999904632568,
+          "low": 4.309999942779541,
+          "volume": 0
+        },
+        {
+          "date": "2026-04-28",
+          "close": 4.354000091552734,
+          "open": 4.370999813079834,
+          "high": 4.377999782562256,
+          "low": 4.35099983215332,
+          "volume": 0
+        },
+        {
+          "date": "2026-04-29",
+          "close": 4.418000221252441,
+          "open": 4.361999988555908,
+          "high": 4.432000160217285,
+          "low": 4.361999988555908,
+          "volume": 0
+        },
+        {
+          "date": "2026-04-30",
+          "close": 4.389999866485596,
+          "open": 4.392000198364258,
+          "high": 4.409999847412109,
+          "low": 4.381999969482422,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-01",
+          "close": 4.377999782562256,
+          "open": 4.368000030517578,
+          "high": 4.4039998054504395,
+          "low": 4.3420000076293945,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-04",
+          "close": 4.446000099182129,
+          "open": 4.400000095367432,
+          "high": 4.464000225067139,
+          "low": 4.389999866485596,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-05",
+          "close": 4.415999889373779,
+          "open": 4.426000118255615,
+          "high": 4.429999828338623,
+          "low": 4.406000137329102,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-06",
+          "close": 4.355999946594238,
+          "open": 4.366000175476074,
+          "high": 4.372000217437744,
+          "low": 4.3480000495910645,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-07",
+          "close": 4.392000198364258,
+          "open": 4.334000110626221,
+          "high": 4.395999908447266,
+          "low": 4.314000129699707,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-08",
+          "close": 4.363999843597412,
+          "open": 4.372000217437744,
+          "high": 4.388000011444092,
+          "low": 4.3460001945495605,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-11",
+          "close": 4.409999847412109,
+          "open": 4.392000198364258,
+          "high": 4.409999847412109,
+          "low": 4.377999782562256,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-12",
+          "close": 4.4629998207092285,
+          "open": 4.436999797821045,
+          "high": 4.4670000076293945,
+          "low": 4.422999858856201,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-13",
+          "close": 4.480999946594238,
+          "open": 4.465000152587891,
+          "high": 4.5,
+          "low": 4.460999965667725,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-14",
+          "close": 4.460999965667725,
+          "open": 4.439000129699707,
+          "high": 4.460999965667725,
+          "low": 4.435999870300293,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-15",
+          "close": 4.59499979019165,
+          "open": 4.547999858856201,
+          "high": 4.598999977111816,
+          "low": 4.546000003814697,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-18",
+          "close": 4.623000144958496,
+          "open": 4.598999977111816,
+          "high": 4.626999855041504,
+          "low": 4.564000129699707,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-19",
+          "close": 4.666999816894531,
+          "open": 4.617000102996826,
+          "high": 4.686999797821045,
+          "low": 4.61299991607666,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-20",
+          "close": 4.572000026702881,
+          "open": 4.64300012588501,
+          "high": 4.658999919891357,
+          "low": 4.565999984741211,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-21",
+          "close": 4.585999965667725,
+          "open": 4.609000205993652,
+          "high": 4.635000228881836,
+          "low": 4.553999900817871,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-22",
+          "close": 4.558000087738037,
+          "open": 4.541999816894531,
+          "high": 4.585999965667725,
+          "low": 4.5279998779296875,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-26",
+          "close": 4.493000030517578,
+          "open": 4.488999843597412,
+          "high": 4.51200008392334,
+          "low": 4.479000091552734,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-27",
+          "close": 4.480999946594238,
+          "open": 4.4710001945495605,
+          "high": 4.488999843597412,
+          "low": 4.448999881744385,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-28",
+          "close": 4.454999923706055,
+          "open": 4.507999897003174,
+          "high": 4.510000228881836,
+          "low": 4.436999797821045,
+          "volume": 0
+        },
+        {
+          "date": "2026-05-29",
+          "close": 4.453000068664551,
+          "open": 4.440999984741211,
+          "high": 4.456999778747559,
+          "low": 4.426000118255615,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-01",
+          "close": 4.474999904632568,
+          "open": 4.456999778747559,
+          "high": 4.515999794006348,
+          "low": 4.445000171661377,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-02",
+          "close": 4.454999923706055,
+          "open": 4.429999828338623,
+          "high": 4.4629998207092285,
+          "low": 4.427999973297119,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-03",
+          "close": 4.491000175476074,
+          "open": 4.485000133514404,
+          "high": 4.502999782562256,
+          "low": 4.474999904632568,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-04",
+          "close": 4.4770002365112305,
+          "open": 4.456999778747559,
+          "high": 4.479000091552734,
+          "low": 4.448999881744385,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-05",
+          "close": 4.535999774932861,
+          "open": 4.4670000076293945,
+          "high": 4.553999900817871,
+          "low": 4.465000152587891,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-08",
+          "close": 4.552000045776367,
+          "open": 4.539999961853027,
+          "high": 4.558000087738037,
+          "low": 4.515999794006348,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-09",
+          "close": 4.5279998779296875,
+          "open": 4.546000003814697,
+          "high": 4.556000232696533,
+          "low": 4.519999980926514,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-10",
+          "close": 4.541999816894531,
+          "open": 4.533999919891357,
+          "high": 4.559999942779541,
+          "low": 4.513000011444092,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-11",
+          "close": 4.4629998207092285,
+          "open": 4.520999908447266,
+          "high": 4.550000190734863,
+          "low": 4.456999778747559,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-12",
+          "close": 4.486999988555908,
+          "open": 4.4730000495910645,
+          "high": 4.506999969482422,
+          "low": 4.468999862670898,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-15",
+          "close": 4.468999862670898,
+          "open": 4.454999923706055,
+          "high": 4.4730000495910645,
+          "low": 4.440999984741211,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-16",
+          "close": 4.427999973297119,
+          "open": 4.442999839782715,
+          "high": 4.459000110626221,
+          "low": 4.420000076293945,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-17",
+          "close": 4.4629998207092285,
+          "open": 4.442999839782715,
+          "high": 4.479000091552734,
+          "low": 4.426000118255615,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-18",
+          "close": 4.451000213623047,
+          "open": 4.453000068664551,
+          "high": 4.453000068664551,
+          "low": 4.420000076293945,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-22",
+          "close": 4.508999824523926,
+          "open": 4.494999885559082,
+          "high": 4.514999866485596,
+          "low": 4.480999946594238,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-23",
+          "close": 4.493000030517578,
+          "open": 4.486999988555908,
+          "high": 4.497000217437744,
+          "low": 4.4770002365112305,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-24",
+          "close": 4.4019999504089355,
+          "open": 4.453000068664551,
+          "high": 4.454999923706055,
+          "low": 4.3979997634887695,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-25",
+          "close": 4.392000198364258,
+          "open": 4.4120001792907715,
+          "high": 4.414000034332275,
+          "low": 4.36299991607666,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-26",
+          "close": 4.372000217437744,
+          "open": 4.388000011444092,
+          "high": 4.409999847412109,
+          "low": 4.367000102996826,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-29",
+          "close": 4.374000072479248,
+          "open": 4.377999782562256,
+          "high": 4.389999866485596,
+          "low": 4.367000102996826,
+          "volume": 0
+        },
+        {
+          "date": "2026-06-30",
+          "close": 4.418000221252441,
+          "open": 4.392000198364258,
+          "high": 4.421999931335449,
+          "low": 4.388000011444092,
+          "volume": 0
+        },
+        {
+          "date": "2026-07-01",
+          "close": 4.474999904632568,
+          "open": 4.482999801635742,
+          "high": 4.500999927520752,
+          "low": 4.456999778747559,
+          "volume": 0
+        },
+        {
+          "date": "2026-07-02",
+          "close": 4.485000133514404,
+          "open": 4.502999782562256,
+          "high": 4.505000114440918,
+          "low": 4.453000068664551,
+          "volume": 0
+        },
+        {
+          "date": "2026-07-06",
+          "close": 4.479000091552734,
+          "open": 4.456999778747559,
+          "high": 4.491000175476074,
+          "low": 4.456999778747559,
+          "volume": 0
+        },
+        {
+          "date": "2026-07-07",
+          "close": 4.5289998054504395,
+          "open": 4.497000217437744,
+          "high": 4.5329999923706055,
+          "low": 4.485000133514404,
+          "volume": 0
+        },
+        {
+          "date": "2026-07-08",
+          "close": 4.568999767303467,
+          "open": 4.560999870300293,
+          "high": 4.5970001220703125,
+          "low": 4.557000160217285,
+          "volume": 0
+        },
+        {
+          "date": "2026-07-09",
+          "close": 4.539000034332275,
+          "open": 4.577000141143799,
+          "high": 4.580999851226807,
+          "low": 4.5289998054504395,
+          "volume": 0
+        },
+        {
+          "date": "2026-07-10",
+          "close": 4.568999767303467,
+          "open": 4.540999889373779,
+          "high": 4.571000099182129,
+          "low": 4.539000034332275,
+          "volume": 0
+        },
+        {
+          "date": "2026-07-13",
+          "close": 4.609000205993652,
+          "open": 4.585000038146973,
+          "high": 4.618000030517578,
+          "low": 4.572999954223633,
+          "volume": 0
+        },
+        {
+          "date": "2026-07-14",
+          "close": 4.585000038146973,
+          "open": 4.613999843597412,
+          "high": 4.613999843597412,
+          "low": 4.525000095367432,
+          "volume": 0
+        },
+        {
+          "date": "2026-07-15",
+          "close": 4.545000076293945,
+          "open": 4.607999801635742,
+          "high": 4.610000133514404,
+          "low": 4.539000034332275,
+          "volume": 0
+        },
+        {
+          "date": "2026-07-16",
+          "close": 4.568999767303467,
+          "open": 4.581999778747559,
+          "high": 4.5960001945495605,
+          "low": 4.560999870300293,
+          "volume": 0
+        },
+        {
+          "date": "2026-07-17",
+          "close": 4.540999889373779,
+          "open": 4.520999908447266,
+          "high": 4.550000190734863,
+          "low": 4.511000156402588,
+          "volume": 0
+        },
+        {
+          "date": "2026-07-20",
+          "close": 4.5980000495910645,
+          "open": 4.565999984741211,
+          "high": 4.607999801635742,
+          "low": 4.559999942779541,
+          "volume": 0
+        },
+        {
+          "date": "2026-07-21",
+          "close": 4.627999782562256,
+          "open": 4.599999904632568,
+          "high": 4.639999866485596,
+          "low": 4.5980000495910645,
+          "volume": 0
+        },
+        {
+          "date": "2026-07-22",
+          "close": 4.6570000648498535,
+          "open": 4.639999866485596,
+          "high": 4.660999774932861,
+          "low": 4.631999969482422,
+          "volume": 0
+        },
         {
           "date": "2026-07-23",
           "close": 4.703000068664551,
@@ -12582,6 +13094,14 @@
           "open": 4.669000148773193,
           "high": 4.685999870300293,
           "low": 4.651000022888184,
+          "volume": 0
+        },
+        {
+          "date": "2026-07-31",
+          "close": 4.744999885559082,
+          "open": 4.684000015258789,
+          "high": 4.747000217437744,
+          "low": 4.682000160217285,
           "volume": 0
         },
         {
@@ -12647,12 +13167,20 @@
           "high": 4.688000202178955,
           "low": 4.645999908447266,
           "volume": 0
+        },
+        {
+          "date": "2026-08-13",
+          "close": 4.640999794006348,
+          "open": 4.674000263214111,
+          "high": 4.675999641418457,
+          "low": 4.61299991607666,
+          "volume": 0
         }
       ],
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/%5ETNX",
       "source_type": "real_market_provider",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "refresh_status": "ok",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     }
@@ -12691,7 +13219,7 @@
         }
       },
       "quality_note": "SEC XBRL companyfacts에서 최신 10-Q/10-K USD fact를 선택함. 기업 발표 segment/AI revenue 코멘트와는 다를 수 있음.",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00"
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00"
     },
     {
       "company": "AMD",
@@ -12726,7 +13254,7 @@
         }
       },
       "quality_note": "SEC XBRL companyfacts에서 최신 10-Q/10-K USD fact를 선택함. 기업 발표 segment/AI revenue 코멘트와는 다를 수 있음.",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00"
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00"
     },
     {
       "company": "Broadcom",
@@ -12761,7 +13289,7 @@
         }
       },
       "quality_note": "SEC XBRL companyfacts에서 최신 10-Q/10-K USD fact를 선택함. 기업 발표 segment/AI revenue 코멘트와는 다를 수 있음.",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00"
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00"
     },
     {
       "company": "Micron",
@@ -12796,7 +13324,7 @@
         }
       },
       "quality_note": "SEC XBRL companyfacts에서 최신 10-Q/10-K USD fact를 선택함. 기업 발표 segment/AI revenue 코멘트와는 다를 수 있음.",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00"
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00"
     },
     {
       "company": "Qualcomm",
@@ -12823,7 +13351,7 @@
         }
       },
       "quality_note": "SEC XBRL companyfacts에서 최신 10-Q/10-K USD fact를 선택함. 기업 발표 segment/AI revenue 코멘트와는 다를 수 있음.",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00"
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00"
     },
     {
       "company": "Marvell",
@@ -12858,7 +13386,7 @@
         }
       },
       "quality_note": "SEC XBRL companyfacts에서 최신 10-Q/10-K USD fact를 선택함. 기업 발표 segment/AI revenue 코멘트와는 다를 수 있음.",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00"
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00"
     },
     {
       "company": "Intel",
@@ -12893,7 +13421,7 @@
         }
       },
       "quality_note": "SEC XBRL companyfacts에서 최신 10-Q/10-K USD fact를 선택함. 기업 발표 segment/AI revenue 코멘트와는 다를 수 있음.",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00"
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00"
     }
   ],
   "value_chain": {
@@ -12902,16 +13430,16 @@
         "theme": "fabless",
         "label": "팹리스/설계",
         "description": "GPU, AI accelerator, ASIC, 네트워크 칩 설계",
-        "basket_return_1m": -2.2209,
+        "basket_return_1m": 0.6959,
         "representatives": [
           {
             "id": "NVDA",
             "company": "NVIDIA",
             "ticker": "NVDA",
-            "value": 224.09,
-            "return_1d": 3.0299,
-            "return_1m": 5.8026,
-            "latest_date": "2026-08-12",
+            "value": 225.3,
+            "return_1d": 0.54,
+            "return_1m": 6.0235,
+            "latest_date": "2026-08-13",
             "source_name": "Yahoo Finance chart API",
             "source_url": "https://finance.yahoo.com/quote/NVDA",
             "source_type": "real_market_provider",
@@ -12921,10 +13449,10 @@
             "id": "AMD",
             "company": "AMD",
             "ticker": "AMD",
-            "value": 482.93,
-            "return_1d": 1.8152,
-            "return_1m": -11.895,
-            "latest_date": "2026-08-12",
+            "value": 483.01,
+            "return_1d": 0.0166,
+            "return_1m": -8.7179,
+            "latest_date": "2026-08-13",
             "source_name": "Yahoo Finance chart API",
             "source_url": "https://finance.yahoo.com/quote/AMD",
             "source_type": "real_market_provider",
@@ -12934,10 +13462,10 @@
             "id": "AVGO",
             "company": "Broadcom",
             "ticker": "AVGO",
-            "value": 416.05,
-            "return_1d": -0.0072,
-            "return_1m": 6.9235,
-            "latest_date": "2026-08-12",
+            "value": 417.82,
+            "return_1d": 0.4254,
+            "return_1m": 5.9704,
+            "latest_date": "2026-08-13",
             "source_name": "Yahoo Finance chart API",
             "source_url": "https://finance.yahoo.com/quote/AVGO",
             "source_type": "real_market_provider",
@@ -12947,10 +13475,10 @@
             "id": "MRVL",
             "company": "Marvell",
             "ticker": "MRVL",
-            "value": 217.08,
-            "return_1d": 2.2467,
-            "return_1m": -2.4096,
-            "latest_date": "2026-08-12",
+            "value": 222.18,
+            "return_1d": 2.3494,
+            "return_1m": 7.7184,
+            "latest_date": "2026-08-13",
             "source_name": "Yahoo Finance chart API",
             "source_url": "https://finance.yahoo.com/quote/MRVL",
             "source_type": "real_market_provider",
@@ -12960,10 +13488,10 @@
             "id": "QCOM",
             "company": "Qualcomm",
             "ticker": "QCOM",
-            "value": 163.07,
-            "return_1d": 0.2397,
-            "return_1m": -8.4391,
-            "latest_date": "2026-08-12",
+            "value": 164.79,
+            "return_1d": 1.0548,
+            "return_1m": -7.4109,
+            "latest_date": "2026-08-13",
             "source_name": "Yahoo Finance chart API",
             "source_url": "https://finance.yahoo.com/quote/QCOM",
             "source_type": "real_market_provider",
@@ -12973,10 +13501,10 @@
             "id": "ARM",
             "company": "Arm",
             "ticker": "ARM",
-            "value": 271.87,
-            "return_1d": 1.0932,
-            "return_1m": -3.3076,
-            "latest_date": "2026-08-12",
+            "value": 278.65,
+            "return_1d": 2.4938,
+            "return_1m": 0.592,
+            "latest_date": "2026-08-13",
             "source_name": "Yahoo Finance chart API",
             "source_url": "https://finance.yahoo.com/quote/ARM",
             "source_type": "real_market_provider",
@@ -12985,23 +13513,23 @@
         ],
         "source_type": "no_key_auto_provider",
         "refresh_status": "ok",
-        "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+        "fetched_at": "2026-08-13T22:11:52.623140+00:00",
         "quality_note": "Naver/Yahoo no-key provider 가격 series에서 대표 ticker 바스켓 수익률을 계산. 점유율/유료 가격은 만들지 않음."
       },
       {
         "theme": "foundry",
         "label": "파운드리/생산",
         "description": "첨단 공정 제조와 패키징 capacity",
-        "basket_return_1m": -1.0124,
+        "basket_return_1m": 1.4613,
         "representatives": [
           {
             "id": "2330.TW",
             "company": "TSMC",
             "ticker": "2330.TW",
-            "value": 2415.0,
-            "return_1d": 0.8351,
-            "return_1m": -0.2066,
-            "latest_date": "2026-08-12",
+            "value": 2435.0,
+            "return_1d": 0.8282,
+            "return_1m": -0.2049,
+            "latest_date": "2026-08-13",
             "source_name": "Yahoo Finance chart API",
             "source_url": "https://finance.yahoo.com/quote/2330.TW",
             "source_type": "real_market_provider",
@@ -13011,10 +13539,10 @@
             "id": "TSM",
             "company": "TSMC ADR",
             "ticker": "TSM",
-            "value": 429.15,
-            "return_1d": 1.6799,
-            "return_1m": 2.0838,
-            "latest_date": "2026-08-12",
+            "value": 430.49,
+            "return_1d": 0.3122,
+            "return_1m": 2.6247,
+            "latest_date": "2026-08-13",
             "source_name": "Yahoo Finance chart API",
             "source_url": "https://finance.yahoo.com/quote/TSM",
             "source_type": "real_market_provider",
@@ -13024,10 +13552,10 @@
             "id": "005930",
             "company": "삼성전자",
             "ticker": "005930",
-            "value": 255500.0,
-            "return_1d": 6.6806,
-            "return_1m": 0.3929,
-            "latest_date": "2026-08-12",
+            "value": 268000.0,
+            "return_1d": 4.8924,
+            "return_1m": 1.9011,
+            "latest_date": "2026-08-13",
             "source_name": "Naver Stock domestic chart API",
             "source_url": "https://m.stock.naver.com/domestic/stock/005930",
             "source_type": "real_market_provider",
@@ -13037,10 +13565,10 @@
             "id": "INTC",
             "company": "Intel",
             "ticker": "INTC",
-            "value": 100.95,
-            "return_1d": 3.3159,
-            "return_1m": -6.3196,
-            "latest_date": "2026-08-12",
+            "value": 104.56,
+            "return_1d": 3.576,
+            "return_1m": 1.5244,
+            "latest_date": "2026-08-13",
             "source_name": "Yahoo Finance chart API",
             "source_url": "https://finance.yahoo.com/quote/INTC",
             "source_type": "real_market_provider",
@@ -13049,23 +13577,23 @@
         ],
         "source_type": "no_key_auto_provider",
         "refresh_status": "ok",
-        "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+        "fetched_at": "2026-08-13T22:11:52.623140+00:00",
         "quality_note": "Naver/Yahoo no-key provider 가격 series에서 대표 ticker 바스켓 수익률을 계산. 점유율/유료 가격은 만들지 않음."
       },
       {
         "theme": "memory",
         "label": "메모리/HBM/DRAM/NAND",
         "description": "HBM, DRAM, NAND, enterprise SSD",
-        "basket_return_1m": -8.4653,
+        "basket_return_1m": -3.2631,
         "representatives": [
           {
             "id": "000660",
             "company": "SK하이닉스",
             "ticker": "000660",
-            "value": 1504000.0,
-            "return_1d": 5.5439,
-            "return_1m": -18.4824,
-            "latest_date": "2026-08-12",
+            "value": 1593000.0,
+            "return_1d": 5.9176,
+            "return_1m": -16.7277,
+            "latest_date": "2026-08-13",
             "source_name": "Naver Stock domestic chart API",
             "source_url": "https://m.stock.naver.com/domestic/stock/000660",
             "source_type": "real_market_provider",
@@ -13075,10 +13603,10 @@
             "id": "005930",
             "company": "삼성전자",
             "ticker": "005930",
-            "value": 255500.0,
-            "return_1d": 6.6806,
-            "return_1m": 0.3929,
-            "latest_date": "2026-08-12",
+            "value": 268000.0,
+            "return_1d": 4.8924,
+            "return_1m": 1.9011,
+            "latest_date": "2026-08-13",
             "source_name": "Naver Stock domestic chart API",
             "source_url": "https://m.stock.naver.com/domestic/stock/005930",
             "source_type": "real_market_provider",
@@ -13088,10 +13616,10 @@
             "id": "MU",
             "company": "Micron",
             "ticker": "MU",
-            "value": 911.29,
-            "return_1d": 4.9245,
-            "return_1m": -7.3063,
-            "latest_date": "2026-08-12",
+            "value": 949.83,
+            "return_1d": 4.2292,
+            "return_1m": 5.0372,
+            "latest_date": "2026-08-13",
             "source_name": "Yahoo Finance chart API",
             "source_url": "https://finance.yahoo.com/quote/MU",
             "source_type": "real_market_provider",
@@ -13100,23 +13628,23 @@
         ],
         "source_type": "no_key_auto_provider",
         "refresh_status": "ok",
-        "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+        "fetched_at": "2026-08-13T22:11:52.623140+00:00",
         "quality_note": "Naver/Yahoo no-key provider 가격 series에서 대표 ticker 바스켓 수익률을 계산. 점유율/유료 가격은 만들지 않음."
       },
       {
         "theme": "substrate_materials",
         "label": "기판/소재·부품",
         "description": "FC-BGA, ABF substrate, MLCC, 패키징/공정 소재·부품",
-        "basket_return_1m": 1.6101,
+        "basket_return_1m": 7.0932,
         "representatives": [
           {
             "id": "009150",
             "company": "삼성전기",
             "ticker": "009150",
-            "value": 1335000.0,
-            "return_1d": 5.7845,
-            "return_1m": 3.5687,
-            "latest_date": "2026-08-12",
+            "value": 1503000.0,
+            "return_1d": 12.5843,
+            "return_1m": 19.2857,
+            "latest_date": "2026-08-13",
             "source_name": "Naver Stock domestic chart API",
             "source_url": "https://m.stock.naver.com/domestic/stock/009150",
             "source_type": "real_market_provider",
@@ -13126,10 +13654,10 @@
             "id": "4062.T",
             "company": "Ibiden",
             "ticker": "4062.T",
-            "value": 20480.0,
-            "return_1d": 3.0181,
-            "return_1m": 0.8867,
-            "latest_date": "2026-08-12",
+            "value": 21560.0,
+            "return_1d": 5.2734,
+            "return_1m": 15.3558,
+            "latest_date": "2026-08-13",
             "source_name": "Yahoo Finance chart API",
             "source_url": "https://finance.yahoo.com/quote/4062.T",
             "source_type": "real_market_provider",
@@ -13140,9 +13668,9 @@
             "company": "Unimicron",
             "ticker": "3037.TW",
             "value": 1000.0,
-            "return_1d": 0.8065,
-            "return_1m": 14.4165,
-            "latest_date": "2026-08-12",
+            "return_1d": 0.0,
+            "return_1m": 6.8376,
+            "latest_date": "2026-08-13",
             "source_name": "Yahoo Finance chart API",
             "source_url": "https://finance.yahoo.com/quote/3037.TW",
             "source_type": "real_market_provider",
@@ -13152,10 +13680,10 @@
             "id": "4063.T",
             "company": "Shin-Etsu Chemical",
             "ticker": "4063.T",
-            "value": 6410.0,
-            "return_1d": 1.9726,
-            "return_1m": -12.4317,
-            "latest_date": "2026-08-12",
+            "value": 6378.0,
+            "return_1d": -0.4992,
+            "return_1m": -13.1063,
+            "latest_date": "2026-08-13",
             "source_name": "Yahoo Finance chart API",
             "source_url": "https://finance.yahoo.com/quote/4063.T",
             "source_type": "real_market_provider",
@@ -13164,7 +13692,7 @@
         ],
         "source_type": "no_key_auto_provider",
         "refresh_status": "ok",
-        "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+        "fetched_at": "2026-08-13T22:11:52.623140+00:00",
         "quality_note": "Naver/Yahoo no-key provider 가격 series에서 대표 ticker 바스켓 수익률을 계산. 점유율/유료 가격은 만들지 않음."
       }
     ],
@@ -13178,7 +13706,7 @@
         "source_type": "official_no_key_html_or_manual_real",
         "source_url": "https://www.bok.or.kr/portal/main/main.do",
         "refresh_status": "manual_required",
-        "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+        "fetched_at": "2026-08-13T22:11:52.623140+00:00",
         "quality_note": "BOK 공개 HTML 접근은 가능하나 세부 리포트 게시판 endpoint 확정 전에는 수동/링크 기반으로 표시."
       },
       {
@@ -13187,7 +13715,7 @@
         "source_type": "commentary_no_key_rss",
         "source_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsJ6RuBiTVWRX156FVbeaGg",
         "refresh_status": "ok",
-        "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+        "fetched_at": "2026-08-13T22:11:52.623140+00:00",
         "quality_note": "YouTube RSS에서 최신 항목을 자동 수집. commentary source로만 표시."
       },
       {
@@ -13196,11 +13724,47 @@
         "source_type": "manual_real_bookmark_source",
         "source_url": "https://www.tossinvest.com/",
         "refresh_status": "manual_required",
-        "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+        "fetched_at": "2026-08-13T22:11:52.623140+00:00",
         "quality_note": "리포트 전용 공개 endpoint 미확정. 자동 수집을 주장하지 않고 manual_real/bookmark로 시작."
       }
     ],
     "items": [
+      {
+        "source_key": "shuka_world",
+        "source_name": "슈카월드 YouTube RSS",
+        "item_id": "vSWPtH9V7so",
+        "title": "햄버거가 미국에서 망하고, 한국에서 잘되는 이유",
+        "published_at": "2026-08-13T09:53:41+00:00",
+        "url": "https://www.youtube.com/watch?v=vSWPtH9V7so",
+        "tags": [
+          "favorite"
+        ],
+        "summary_short": "YouTube RSS 제목 기반 favorite source 항목. 원문 확인 필요.",
+        "related_companies": [],
+        "related_themes": [],
+        "source_type": "commentary_no_key_rss",
+        "fetched_at": "2026-08-13T22:11:52.623140+00:00",
+        "refresh_status": "ok",
+        "quality_note": "YouTube RSS에서 가져온 해설/동영상 소스이며 공식 수치 원천이 아님."
+      },
+      {
+        "source_key": "shuka_world",
+        "source_name": "슈카월드 YouTube RSS",
+        "item_id": "d-M6YDzTsg0",
+        "title": "주식 업계 비밀 대공개",
+        "published_at": "2026-08-13T03:52:12+00:00",
+        "url": "https://www.youtube.com/shorts/d-M6YDzTsg0",
+        "tags": [
+          "favorite"
+        ],
+        "summary_short": "YouTube RSS 제목 기반 favorite source 항목. 원문 확인 필요.",
+        "related_companies": [],
+        "related_themes": [],
+        "source_type": "commentary_no_key_rss",
+        "fetched_at": "2026-08-13T22:11:52.623140+00:00",
+        "refresh_status": "ok",
+        "quality_note": "YouTube RSS에서 가져온 해설/동영상 소스이며 공식 수치 원천이 아님."
+      },
       {
         "source_key": "shuka_world",
         "source_name": "슈카월드 YouTube RSS",
@@ -13215,7 +13779,7 @@
         "related_companies": [],
         "related_themes": [],
         "source_type": "commentary_no_key_rss",
-        "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+        "fetched_at": "2026-08-13T22:11:52.623140+00:00",
         "refresh_status": "ok",
         "quality_note": "YouTube RSS에서 가져온 해설/동영상 소스이며 공식 수치 원천이 아님."
       },
@@ -13233,7 +13797,7 @@
         "related_companies": [],
         "related_themes": [],
         "source_type": "commentary_no_key_rss",
-        "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+        "fetched_at": "2026-08-13T22:11:52.623140+00:00",
         "refresh_status": "ok",
         "quality_note": "YouTube RSS에서 가져온 해설/동영상 소스이며 공식 수치 원천이 아님."
       },
@@ -13251,7 +13815,7 @@
         "related_companies": [],
         "related_themes": [],
         "source_type": "commentary_no_key_rss",
-        "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+        "fetched_at": "2026-08-13T22:11:52.623140+00:00",
         "refresh_status": "ok",
         "quality_note": "YouTube RSS에서 가져온 해설/동영상 소스이며 공식 수치 원천이 아님."
       },
@@ -13269,7 +13833,7 @@
         "related_companies": [],
         "related_themes": [],
         "source_type": "commentary_no_key_rss",
-        "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+        "fetched_at": "2026-08-13T22:11:52.623140+00:00",
         "refresh_status": "ok",
         "quality_note": "YouTube RSS에서 가져온 해설/동영상 소스이며 공식 수치 원천이 아님."
       },
@@ -13287,7 +13851,7 @@
         "related_companies": [],
         "related_themes": [],
         "source_type": "commentary_no_key_rss",
-        "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+        "fetched_at": "2026-08-13T22:11:52.623140+00:00",
         "refresh_status": "ok",
         "quality_note": "YouTube RSS에서 가져온 해설/동영상 소스이며 공식 수치 원천이 아님."
       },
@@ -13305,43 +13869,7 @@
         "related_companies": [],
         "related_themes": [],
         "source_type": "commentary_no_key_rss",
-        "fetched_at": "2026-08-12T22:11:29.057795+00:00",
-        "refresh_status": "ok",
-        "quality_note": "YouTube RSS에서 가져온 해설/동영상 소스이며 공식 수치 원천이 아님."
-      },
-      {
-        "source_key": "shuka_world",
-        "source_name": "슈카월드 YouTube RSS",
-        "item_id": "KW_b_oO43E8",
-        "title": "주식 차트 볼 때 착각하면 안되는 것",
-        "published_at": "2026-08-06T09:51:29+00:00",
-        "url": "https://www.youtube.com/shorts/KW_b_oO43E8",
-        "tags": [
-          "favorite"
-        ],
-        "summary_short": "YouTube RSS 제목 기반 favorite source 항목. 원문 확인 필요.",
-        "related_companies": [],
-        "related_themes": [],
-        "source_type": "commentary_no_key_rss",
-        "fetched_at": "2026-08-12T22:11:29.057795+00:00",
-        "refresh_status": "ok",
-        "quality_note": "YouTube RSS에서 가져온 해설/동영상 소스이며 공식 수치 원천이 아님."
-      },
-      {
-        "source_key": "shuka_world",
-        "source_name": "슈카월드 YouTube RSS",
-        "item_id": "Lqo2SEMdVMM",
-        "title": "뉴욕시의 천원빵 도전은 성공할 수 있을까?",
-        "published_at": "2026-08-05T10:10:00+00:00",
-        "url": "https://www.youtube.com/watch?v=Lqo2SEMdVMM",
-        "tags": [
-          "favorite"
-        ],
-        "summary_short": "YouTube RSS 제목 기반 favorite source 항목. 원문 확인 필요.",
-        "related_companies": [],
-        "related_themes": [],
-        "source_type": "commentary_no_key_rss",
-        "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+        "fetched_at": "2026-08-13T22:11:52.623140+00:00",
         "refresh_status": "ok",
         "quality_note": "YouTube RSS에서 가져온 해설/동영상 소스이며 공식 수치 원천이 아님."
       }
@@ -13354,8 +13882,8 @@
       "source_type": "real_market_provider",
       "source_name": "Naver Stock index chart API",
       "source_url": "https://m.stock.naver.com/domestic/index/KOSPI",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13364,8 +13892,8 @@
       "source_type": "real_market_provider",
       "source_name": "Naver Stock domestic chart API",
       "source_url": "https://m.stock.naver.com/domestic/stock/005930",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13374,8 +13902,8 @@
       "source_type": "real_market_provider",
       "source_name": "Naver Stock domestic chart API",
       "source_url": "https://m.stock.naver.com/domestic/stock/000660",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13384,8 +13912,8 @@
       "source_type": "real_market_provider",
       "source_name": "Naver Stock domestic chart API",
       "source_url": "https://m.stock.naver.com/domestic/stock/009150",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13394,8 +13922,8 @@
       "source_type": "real_market_provider",
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/NVDA",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13404,8 +13932,8 @@
       "source_type": "real_market_provider",
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/AMD",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13414,8 +13942,8 @@
       "source_type": "real_market_provider",
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/AVGO",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13424,8 +13952,8 @@
       "source_type": "real_market_provider",
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/MRVL",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13434,8 +13962,8 @@
       "source_type": "real_market_provider",
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/QCOM",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13444,8 +13972,8 @@
       "source_type": "real_market_provider",
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/ARM",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13454,8 +13982,8 @@
       "source_type": "real_market_provider",
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/2330.TW",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13464,8 +13992,8 @@
       "source_type": "real_market_provider",
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/TSM",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13474,8 +14002,8 @@
       "source_type": "real_market_provider",
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/INTC",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13484,8 +14012,8 @@
       "source_type": "real_market_provider",
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/MU",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13494,8 +14022,8 @@
       "source_type": "real_market_provider",
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/4062.T",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13504,8 +14032,8 @@
       "source_type": "real_market_provider",
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/3037.TW",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13514,8 +14042,8 @@
       "source_type": "real_market_provider",
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/4063.T",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13524,8 +14052,8 @@
       "source_type": "real_market_provider",
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/%5ESOX",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13534,8 +14062,8 @@
       "source_type": "real_market_provider",
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/KRW=X",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13544,8 +14072,8 @@
       "source_type": "real_market_provider",
       "source_name": "Yahoo Finance chart API",
       "source_url": "https://finance.yahoo.com/quote/%5ETNX",
-      "as_of_date": "2026-08-12",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "as_of_date": "2026-08-13",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "실제 외부 소스 응답에서 생성. 투자 판단용 공식 보증 데이터는 아니므로 출처 확인 필요."
     },
     {
@@ -13555,7 +14083,7 @@
       "source_name": "SEC EDGAR companyfacts API",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
       "as_of_date": "2026-04-26",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "SEC XBRL companyfacts에서 최신 10-Q/10-K USD fact를 선택함. 기업 발표 segment/AI revenue 코멘트와는 다를 수 있음."
     },
     {
@@ -13565,7 +14093,7 @@
       "source_name": "SEC EDGAR companyfacts API",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json",
       "as_of_date": "2026-06-27",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "SEC XBRL companyfacts에서 최신 10-Q/10-K USD fact를 선택함. 기업 발표 segment/AI revenue 코멘트와는 다를 수 있음."
     },
     {
@@ -13575,7 +14103,7 @@
       "source_name": "SEC EDGAR companyfacts API",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001730168.json",
       "as_of_date": "2026-05-03",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "SEC XBRL companyfacts에서 최신 10-Q/10-K USD fact를 선택함. 기업 발표 segment/AI revenue 코멘트와는 다를 수 있음."
     },
     {
@@ -13585,7 +14113,7 @@
       "source_name": "SEC EDGAR companyfacts API",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000723125.json",
       "as_of_date": "2026-05-28",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "SEC XBRL companyfacts에서 최신 10-Q/10-K USD fact를 선택함. 기업 발표 segment/AI revenue 코멘트와는 다를 수 있음."
     },
     {
@@ -13595,7 +14123,7 @@
       "source_name": "SEC EDGAR companyfacts API",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000804328.json",
       "as_of_date": "2026-06-28",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "SEC XBRL companyfacts에서 최신 10-Q/10-K USD fact를 선택함. 기업 발표 segment/AI revenue 코멘트와는 다를 수 있음."
     },
     {
@@ -13605,7 +14133,7 @@
       "source_name": "SEC EDGAR companyfacts API",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001835632.json",
       "as_of_date": "2026-05-02",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "SEC XBRL companyfacts에서 최신 10-Q/10-K USD fact를 선택함. 기업 발표 segment/AI revenue 코멘트와는 다를 수 있음."
     },
     {
@@ -13615,7 +14143,7 @@
       "source_name": "SEC EDGAR companyfacts API",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000050863.json",
       "as_of_date": "2026-06-27",
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "SEC XBRL companyfacts에서 최신 10-Q/10-K USD fact를 선택함. 기업 발표 segment/AI revenue 코멘트와는 다를 수 있음."
     },
     {
@@ -13625,7 +14153,7 @@
       "source_name": "Naver/Yahoo no-key provider basket",
       "source_url": "public/data/dashboard.json#value_chain",
       "as_of_date": null,
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "Naver/Yahoo no-key provider 가격 series에서 대표 ticker 바스켓 수익률을 계산. 점유율/유료 가격은 만들지 않음."
     },
     {
@@ -13635,7 +14163,7 @@
       "source_name": "Naver/Yahoo no-key provider basket",
       "source_url": "public/data/dashboard.json#value_chain",
       "as_of_date": null,
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "Naver/Yahoo no-key provider 가격 series에서 대표 ticker 바스켓 수익률을 계산. 점유율/유료 가격은 만들지 않음."
     },
     {
@@ -13645,7 +14173,7 @@
       "source_name": "Naver/Yahoo no-key provider basket",
       "source_url": "public/data/dashboard.json#value_chain",
       "as_of_date": null,
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "Naver/Yahoo no-key provider 가격 series에서 대표 ticker 바스켓 수익률을 계산. 점유율/유료 가격은 만들지 않음."
     },
     {
@@ -13655,7 +14183,7 @@
       "source_name": "Naver/Yahoo no-key provider basket",
       "source_url": "public/data/dashboard.json#value_chain",
       "as_of_date": null,
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "Naver/Yahoo no-key provider 가격 series에서 대표 ticker 바스켓 수익률을 계산. 점유율/유료 가격은 만들지 않음."
     },
     {
@@ -13665,7 +14193,7 @@
       "source_name": "한국은행 리포트",
       "source_url": "https://www.bok.or.kr/portal/main/main.do",
       "as_of_date": null,
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "BOK 공개 HTML 접근은 가능하나 세부 리포트 게시판 endpoint 확정 전에는 수동/링크 기반으로 표시."
     },
     {
@@ -13675,7 +14203,7 @@
       "source_name": "슈카월드 YouTube RSS",
       "source_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsJ6RuBiTVWRX156FVbeaGg",
       "as_of_date": null,
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "YouTube RSS에서 최신 항목을 자동 수집. commentary source로만 표시."
     },
     {
@@ -13685,7 +14213,7 @@
       "source_name": "토스증권 리포트",
       "source_url": "https://www.tossinvest.com/",
       "as_of_date": null,
-      "fetched_at": "2026-08-12T22:11:29.057795+00:00",
+      "fetched_at": "2026-08-13T22:11:52.623140+00:00",
       "quality_note": "리포트 전용 공개 endpoint 미확정. 자동 수집을 주장하지 않고 manual_real/bookmark로 시작."
     },
     {
@@ -13707,16 +14235,8 @@
     {
       "id": "KOSPI",
       "name": "KOSPI",
-      "period_change_pct": -3.3479,
+      "period_change_pct": -0.6343,
       "series": [
-        {
-          "date": "2026-04-16",
-          "close": 6226.05,
-          "open": 6149.49,
-          "high": 6231.03,
-          "low": 6126.06,
-          "volume": 925695
-        },
         {
           "date": "2026-04-17",
           "close": 6191.92,
@@ -14348,6 +14868,14 @@
           "high": 6668.43,
           "low": 6413.5,
           "volume": 360651
+        },
+        {
+          "date": "2026-08-13",
+          "close": 6813.34,
+          "open": 6773.92,
+          "high": 6895.63,
+          "low": 6748.13,
+          "volume": 418947
         }
       ],
       "currency": "KRW"
@@ -14355,16 +14883,8 @@
     {
       "id": "005930",
       "name": "삼성전자",
-      "period_change_pct": 0.3929,
+      "period_change_pct": 1.9011,
       "series": [
-        {
-          "date": "2026-04-16",
-          "close": 217500.0,
-          "open": 212000.0,
-          "high": 218000.0,
-          "low": 210500.0,
-          "volume": 21499788
-        },
         {
           "date": "2026-04-17",
           "close": 216000.0,
@@ -14996,6 +15516,14 @@
           "high": 260500.0,
           "low": 241000.0,
           "volume": 27102479
+        },
+        {
+          "date": "2026-08-13",
+          "close": 268000.0,
+          "open": 267500.0,
+          "high": 271000.0,
+          "low": 262500.0,
+          "volume": 35463855
         }
       ],
       "currency": "KRW"
@@ -15003,16 +15531,8 @@
     {
       "id": "000660",
       "name": "SK하이닉스",
-      "period_change_pct": -18.4824,
+      "period_change_pct": -16.7277,
       "series": [
-        {
-          "date": "2026-04-16",
-          "close": 1155000.0,
-          "open": 1141000.0,
-          "high": 1161000.0,
-          "low": 1130000.0,
-          "volume": 2901319
-        },
         {
           "date": "2026-04-17",
           "close": 1128000.0,
@@ -15643,7 +16163,15 @@
           "open": 1456000.0,
           "high": 1549000.0,
           "low": 1440000.0,
-          "volume": 4204301
+          "volume": 4566672
+        },
+        {
+          "date": "2026-08-13",
+          "close": 1593000.0,
+          "open": 1582000.0,
+          "high": 1634000.0,
+          "low": 1567000.0,
+          "volume": 4599305
         }
       ],
       "currency": "KRW"
@@ -15651,16 +16179,8 @@
     {
       "id": "009150",
       "name": "삼성전기",
-      "period_change_pct": 3.5687,
+      "period_change_pct": 19.2857,
       "series": [
-        {
-          "date": "2026-04-16",
-          "close": 639000.0,
-          "open": 622000.0,
-          "high": 643000.0,
-          "low": 619000.0,
-          "volume": 556668
-        },
         {
           "date": "2026-04-17",
           "close": 679000.0,
@@ -16291,7 +16811,15 @@
           "open": 1288000.0,
           "high": 1350000.0,
           "low": 1275000.0,
-          "volume": 701680
+          "volume": 701750
+        },
+        {
+          "date": "2026-08-13",
+          "close": 1503000.0,
+          "open": 1432000.0,
+          "high": 1548000.0,
+          "low": 1412000.0,
+          "volume": 1157518
         }
       ],
       "currency": "KRW"
@@ -16299,16 +16827,8 @@
     {
       "id": "NVDA",
       "name": "NVIDIA",
-      "period_change_pct": 5.8026,
+      "period_change_pct": 6.0235,
       "series": [
-        {
-          "date": "2026-04-20",
-          "close": 202.05999755859375,
-          "open": 199.97999572753906,
-          "high": 202.1699981689453,
-          "low": 197.83999633789062,
-          "volume": 119381400
-        },
         {
           "date": "2026-04-21",
           "close": 199.8800048828125,
@@ -16939,7 +17459,15 @@
           "open": 221.0399932861328,
           "high": 225.10000610351562,
           "low": 220.1999969482422,
-          "volume": 106431963
+          "volume": 108783600
+        },
+        {
+          "date": "2026-08-13",
+          "close": 225.3000030517578,
+          "open": 225.05499267578125,
+          "high": 227.22999572753906,
+          "low": 223.7100067138672,
+          "volume": 93629467
         }
       ],
       "currency": "USD"
@@ -16947,16 +17475,8 @@
     {
       "id": "AMD",
       "name": "AMD",
-      "period_change_pct": -11.895,
+      "period_change_pct": -8.7179,
       "series": [
-        {
-          "date": "2026-04-20",
-          "close": 274.95001220703125,
-          "open": 280.6000061035156,
-          "high": 287.6099853515625,
-          "low": 272.0,
-          "volume": 34833900
-        },
         {
           "date": "2026-04-21",
           "close": 284.489990234375,
@@ -17584,10 +18104,18 @@
         {
           "date": "2026-08-12",
           "close": 482.92999267578125,
-          "open": 488.79998779296875,
-          "high": 491.6899108886719,
+          "open": 488.32000732421875,
+          "high": 491.69000244140625,
           "low": 480.8800048828125,
-          "volume": 17829871
+          "volume": 18628300
+        },
+        {
+          "date": "2026-08-13",
+          "close": 483.010009765625,
+          "open": 483.05499267578125,
+          "high": 497.9800109863281,
+          "low": 481.0,
+          "volume": 18194677
         }
       ],
       "currency": "USD"
@@ -17595,16 +18123,8 @@
     {
       "id": "AVGO",
       "name": "Broadcom",
-      "period_change_pct": 6.9235,
+      "period_change_pct": 5.9704,
       "series": [
-        {
-          "date": "2026-04-20",
-          "close": 399.6300048828125,
-          "open": 405.70001220703125,
-          "high": 406.4200134277344,
-          "low": 395.8999938964844,
-          "volume": 16922000
-        },
         {
           "date": "2026-04-21",
           "close": 402.1700134277344,
@@ -18232,10 +18752,18 @@
         {
           "date": "2026-08-12",
           "close": 416.04998779296875,
-          "open": 426.2550048828125,
+          "open": 426.260009765625,
           "high": 426.5,
           "low": 414.6099853515625,
-          "volume": 14256945
+          "volume": 15859200
+        },
+        {
+          "date": "2026-08-13",
+          "close": 417.82000732421875,
+          "open": 415.80499267578125,
+          "high": 424.9200134277344,
+          "low": 411.4100036621094,
+          "volume": 13133946
         }
       ],
       "currency": "USD"
@@ -18243,16 +18771,8 @@
     {
       "id": "2330.TW",
       "name": "TSMC",
-      "period_change_pct": -0.2066,
+      "period_change_pct": -0.2049,
       "series": [
-        {
-          "date": "2026-04-21",
-          "close": 2050.0,
-          "open": 2050.0,
-          "high": 2075.0,
-          "low": 2045.0,
-          "volume": 25783476
-        },
         {
           "date": "2026-04-22",
           "close": 2050.0,
@@ -18884,6 +19404,14 @@
           "high": 2415.0,
           "low": 2390.0,
           "volume": 17709219
+        },
+        {
+          "date": "2026-08-13",
+          "close": 2435.0,
+          "open": 2440.0,
+          "high": 2445.0,
+          "low": 2425.0,
+          "volume": 21187598
         }
       ],
       "currency": "TWD"
@@ -18891,16 +19419,8 @@
     {
       "id": "MU",
       "name": "Micron",
-      "period_change_pct": -7.3063,
+      "period_change_pct": 5.0372,
       "series": [
-        {
-          "date": "2026-04-20",
-          "close": 448.4200134277344,
-          "open": 458.25,
-          "high": 464.55999755859375,
-          "low": 435.8999938964844,
-          "volume": 32013600
-        },
         {
           "date": "2026-04-21",
           "close": 449.3800048828125,
@@ -19531,7 +20051,15 @@
           "open": 912.9400024414062,
           "high": 935.7999877929688,
           "low": 899.5399780273438,
-          "volume": 35803171
+          "volume": 36804900
+        },
+        {
+          "date": "2026-08-13",
+          "close": 949.8300170898438,
+          "open": 912.89501953125,
+          "high": 978.0,
+          "low": 906.5,
+          "volume": 36294784
         }
       ],
       "currency": "USD"
@@ -19539,16 +20067,8 @@
     {
       "id": "^SOX",
       "name": "SOX 지수",
-      "period_change_pct": -2.0736,
+      "period_change_pct": 0.4606,
       "series": [
-        {
-          "date": "2026-04-20",
-          "close": 9599.2099609375,
-          "open": 9604.900390625,
-          "high": 9612.08984375,
-          "low": 9462.9404296875,
-          "volume": 0
-        },
         {
           "date": "2026-04-21",
           "close": 9647.2099609375,
@@ -20175,10 +20695,18 @@
         },
         {
           "date": "2026-08-12",
-          "close": 12399.3759765625,
-          "open": 12518.9375,
-          "high": 12531.7646484375,
-          "low": 12386.3125,
+          "close": 12399.3798828125,
+          "open": 12518.9404296875,
+          "high": 12531.759765625,
+          "low": 12386.3095703125,
+          "volume": 0
+        },
+        {
+          "date": "2026-08-13",
+          "close": 12455.998046875,
+          "open": 12413.966796875,
+          "high": 12704.375,
+          "low": 12398.814453125,
           "volume": 0
         }
       ],
@@ -20190,7 +20718,7 @@
       "id": "fabless_ai",
       "label": "팹리스/AI 칩 모멘텀",
       "status": "green",
-      "reason": "최근 1개월 거래일 기준 +5.8%",
+      "reason": "최근 1개월 거래일 기준 +6.0%",
       "source_dependency": "NVDA"
     },
     {
@@ -20204,21 +20732,21 @@
       "id": "korea_memory_price",
       "label": "한국 메모리 주가 모멘텀",
       "status": "red",
-      "reason": "최근 1개월 거래일 기준 -18.5%",
+      "reason": "최근 1개월 거래일 기준 -16.7%",
       "source_dependency": "000660"
     },
     {
       "id": "substrate_materials",
       "label": "기판/소재 모멘텀",
-      "status": "yellow",
-      "reason": "최근 1개월 거래일 기준 3.6%",
+      "status": "green",
+      "reason": "최근 1개월 거래일 기준 +19.3%",
       "source_dependency": "009150"
     },
     {
       "id": "usdkrw",
       "label": "환율(USD/KRW)",
       "status": "yellow",
-      "reason": "최근 1개월 거래일 기준 -4.8%",
+      "reason": "최근 1개월 거래일 기준 -4.6%",
       "source_dependency": "KRW=X"
     },
     {
